@@ -9,3 +9,6 @@ Apologies to Matt Jockers, from whose published R code (http://matthewjockers.ne
 Chris Forstall
 James Gawley
 April, 2014
+
+Funded by the University at Buffalo Techne Institute
+Committee on Digital Scholarship and Cultures (DiSC)
