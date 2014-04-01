@@ -1,0 +1,11 @@
+file	author	title	type
+pg1260	c	Jane Eyre	prose
+pg9182	c	Villette	prose
+30486-0	c	Shirley	prose
+pg1028	c	The Professor	prose
+pg768	e	Wuthering Heights	prose
+969-0	a	The Tenant of Wildfell Hall	prose
+767-0	a	Agnes Grey	prose
+poems_a	a	Poems by Acton Bell	verse
+poems_c	c	Poems by Currer Bell	verse
+poems_e	e	Poems by Ellis Bell	verse

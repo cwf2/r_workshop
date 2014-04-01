@@ -1,0 +1,220 @@
+file	president	date	title
+29497.txt	Franklin Pierce	December 2, 1856	 Fourth Annual Message
+29511.txt	Ulysses S. Grant	December 5, 1870	 Second Annual Message
+14418.txt	Harry S. Truman	January 9, 1952	 Annual Message to the Congress on the State of the Union
+10416.txt	Dwight D. Eisenhower	January 6, 1955	 Annual Message to the Congress on the State of the Union
+29556.txt	Woodrow Wilson	December 7, 1915	 Third Annual Message
+29520.txt	Rutherford B. Hayes	December 1, 1879	 Third Annual Message
+29536.txt	Grover Cleveland	December 2, 1895	 Third Annual Message (second term)
+22933.txt	Herbert Hoover	December 8, 1931	 Annual Message to the Congress on the State of the Union.
+28338.txt	Lyndon B. Johnson	January 10, 1967	 Annual Message to the Congress on the State of the Union.
+33062.txt	Jimmy Carter	January 21, 1980	 The State of the Union Annual Message to the Congress
+29487.txt	James K. Polk	December 8, 1846	 Second Annual Message
+29523.txt	Chester A. Arthur	December 4, 1882	 Second Annual Message
+29535.txt	Grover Cleveland	December 3, 1894	 Second Annual Message (second term)
+29333.txt	Lyndon B. Johnson	January 14, 1969	 Annual Message to the Congress on the State of the Union
+26787.txt	Lyndon B. Johnson	January 8, 1964	 Annual Message to the Congress on the State of the Union.
+53358.txt	William J. Clinton	February 4, 1997	 Address Before a Joint Session of the Congress on the State of the Union
+29538.txt	William McKinley	December 6, 1897	 First Annual Message
+29495.txt	Franklin Pierce	December 4, 1854	 Second Annual Message
+29533.txt	Benjamin Harrison	December 6, 1892	 Fourth Annual Message
+28738.txt	Lyndon B. Johnson	January 17, 1968	 Annual Message to the Congress on the State of the Union.
+29548.txt	Theodore Roosevelt	December 3, 1907	 Seventh Annual Message
+29553.txt	William Howard Taft	December 3, 1912	 Fourth Annual Message
+29477.txt	Andrew Jackson	December 7, 1835	 Seventh Annual Message
+29555.txt	Woodrow Wilson	December 8, 1914	 Second Annual Message
+13005.txt	Harry S. Truman	January 7, 1948	 Annual Message to the Congress on the State of the Union
+29435.txt	George Washington	December 3, 1793	 Fifth Annual Message
+16092.txt	Franklin D. Roosevelt	January 6, 1941	 Annual Message to Congress on the State of the Union
+29494.txt	Franklin Pierce	December 5, 1853	 First Annual Message
+11029.txt	Dwight D. Eisenhower	January 10, 1957	 Annual Message to the Congress on the State of the Union
+29646.txt	George W. Bush	January 20, 2004	 Address Before a Joint Session of the Congress on the State of the Union
+29514.txt	Ulysses S. Grant	December 1, 1873	 Fifth Annual Message
+30867.txt	Jimmy Carter	January 19, 1978	 The State of the Union Annual Message to the Congress
+29460.txt	James Monroe	November 16, 1818	 Second Annual Message
+29546.txt	Theodore Roosevelt	December 5, 1905	 Fifth Annual Message
+29565.txt	Calvin Coolidge	December 3, 1924	 Second Annual Message
+29526.txt	Grover Cleveland	December 8, 1885	 First Annual Message (first term)
+29507.txt	Andrew Johnson	December 3, 1866	 Second Annual Message
+32735.txt	Jimmy Carter	January 25, 1979	 The State of the Union Annual Message to the Congress
+29456.txt	James Madison	September 20, 1814	 Sixth Annual Message
+29446.txt	Thomas Jefferson	November 8, 1804	 Fourth Annual Message
+29516.txt	Ulysses S. Grant	December 7, 1875	 Seventh Annual Message
+29479.txt	Martin van Buren	December 5, 1837	 First Annual Message
+29454.txt	James Madison	November 4, 1812	 Fourth Annual Message
+29544.txt	Theodore Roosevelt	December 7, 1903	 Third Annual Message
+29561.txt	Woodrow Wilson	December 7, 1920	 8th Annual Message
+29442.txt	John Adams	November 11, 1800	 Fourth Annual Message
+29467.txt	John Quincy Adams	December 6, 1825	 First Annual Message
+14890.txt	Franklin D. Roosevelt	January 4, 1935	 Annual Message to Congress
+29518.txt	Rutherford B. Hayes	December 3, 1877	 First Annual Message
+29545.txt	Theodore Roosevelt	December 6, 1904	 Fourth Annual Message
+29502.txt	Abraham Lincoln	December 3, 1861	 First Annual Message
+14017.txt	Harry S. Truman	January 8, 1951	 Annual Message to the Congress on the State of the Union
+29472.txt	Andrew Jackson	December 6, 1830	 Second Annual Message
+29505.txt	Abraham Lincoln	December 6, 1864	 Fourth Annual Message
+29474.txt	Andrew Jackson	December 4, 1832	 Fourth Annual Message
+29560.txt	Woodrow Wilson	December 2, 1919	 7th Annual Message
+29470.txt	John Quincy Adams	December 2, 1828	 Fourth Annual Message
+29451.txt	James Madison	November 29, 1809	 First Annual Message
+29468.txt	John Quincy Adams	December 5, 1826	 Second Annual Message
+29510.txt	Ulysses S. Grant	December 6, 1869	 First Annual Message
+29530.txt	Benjamin Harrison	December 3, 1889	 First Annual Message
+50409.txt	William J. Clinton	January 25, 1994	 Address Before a Joint Session of the Congress on the State of the Union
+29466.txt	James Monroe	December 7, 1824	 Eighth Annual Message
+10593.txt	Dwight D. Eisenhower	January 5, 1956	 Annual Message to the Congress on the State of the Union.
+42687.txt	Ronald Reagan	January 26, 1982	 Address Before a Joint Session of the Congress Reporting on the State of the Union 
+32657.txt	Jimmy Carter	January 23, 1979	 The State of the Union Address Delivered Before a Joint Session of the Congress. 
+22458.txt	Herbert Hoover	December 2, 1930	 Annual Message to the Congress on the State of the Union.
+29441.txt	John Adams	December 3, 1799	 Third Annual Message
+29563.txt	Warren G. Harding	December 8, 1922	 Second Annual Message
+29569.txt	Calvin Coolidge	December 4, 1928	 Sixth Annual Message
+24446.txt	George W. Bush	January 23, 2007	 Address Before a Joint Session of the Congress on the State of the Union
+29492.txt	Millard Fillmore	December 2, 1851	 Second Annual Message
+33079.txt	Jimmy Carter	January 23, 1980	 The State of the Union Address Delivered Before a Joint Session of the Congress. 
+29448.txt	Thomas Jefferson	December 2, 1806	 Sixth Annual Message
+16595.txt	Franklin D. Roosevelt	January 6, 1945	 State of the Union Address.
+29488.txt	James K. Polk	December 7, 1847	 Third Annual Message
+29519.txt	Rutherford B. Hayes	December 2, 1878	 Second Annual Message
+29462.txt	James Monroe	November 14, 1820	 Fourth Annual Message
+29529.txt	Grover Cleveland	December 3, 1888	 Fourth Annual Message (first term)
+29475.txt	Andrew Jackson	December 3, 1833	 Fifth Annual Message
+29567.txt	Calvin Coolidge	December 7, 1926	 Fourth Annual Message
+12074.txt	Dwight D. Eisenhower	January 12, 1961	 Annual Message to the Congress on the State of the Union.
+29543.txt	Theodore Roosevelt	December 2, 1902	 Second Annual Message
+88928.txt	Barack Obama	January 25, 2011	 Address Before a Joint Session of the Congress on the State of the Union
+51634.txt	William J. Clinton	January 24, 1995	 Address Before a Joint Session of the Congress on the State of the Union
+29437.txt	George Washington	December 8, 1795	 Seventh Annual Message
+29450.txt	Thomas Jefferson	November 8, 1808	 Eighth Annual Message
+29453.txt	James Madison	November 5, 1811	 Third Annual Message
+29539.txt	William McKinley	December 5, 1898	 Second Annual Message
+76301.txt	George W. Bush	January 28, 2008	 Address Before a Joint Session of the Congress on the State of the Union
+29521.txt	Rutherford B. Hayes	December 6, 1880	 Fourth Annual Message
+16253.txt	Franklin D. Roosevelt	January 6, 1942	 State of the Union Address
+29439.txt	John Adams	November 22, 1797	 First Annual Message
+26907.txt	Lyndon B. Johnson	January 4, 1965	 Annual Message to the Congress on the State of the Union
+29540.txt	William McKinley	December 5, 1899	 Third Annual Message
+29645.txt	George W. Bush	January 28, 2003	 Address Before a Joint Session of the Congress on the State of the Union
+43425.txt	Ronald Reagan	February 18, 1981	 Address Before a Joint Session of the Congress on the Program for Economic Recovery
+29464.txt	James Monroe	December 3, 1822	 Sixth Annual Message
+29482.txt	Martin van Buren	December 5, 1840	 Fourth Annual Message
+29522.txt	Chester A. Arthur	December 6, 1881	 First Annual Message
+29551.txt	William Howard Taft	December 6, 1910	 Second Annual Message
+30856.txt	Jimmy Carter	January 19, 1978	 The State of the Union Address Delivered Before a Joint Session of the Congress. 
+16603.txt	Franklin D. Roosevelt	January 6, 1945	 Radio Address Summarizing the State of the Union Message.
+29458.txt	James Madison	December 3, 1816	 Eighth Annual Message
+29559.txt	Woodrow Wilson	December 2, 1918	 Sixth Annual Message
+15517.txt	Franklin D. Roosevelt	January 3, 1938	 Annual Message to Congress
+57577.txt	William J. Clinton	January 19, 1999	 Address Before a Joint Session of the Congress on the State of the Union
+29484.txt	John Tyler	December 6, 1842	 Second Annual Message
+29513.txt	Ulysses S. Grant	December 2, 1872	 Fourth Annual Message
+29503.txt	Abraham Lincoln	December 1, 1862	 Second Annual Message
+29443.txt	Thomas Jefferson	December 8, 1801	 First Annual Message
+16518.txt	Franklin D. Roosevelt	January 11, 1944	 State of the Union Message to Congress
+29527.txt	Grover Cleveland	December 6, 1886	 Second Annual Message (first term)
+10096.txt	Dwight D. Eisenhower	January 7, 1954	 Annual Message to the Congress on the State of the Union
+34430.txt	Ronald Reagan	January 27, 1987	 Address Before a Joint Session of Congress on the State of the Union 
+29486.txt	James K. Polk	December 2, 1845	 First Annual Message
+29537.txt	Grover Cleveland	December 7, 1896	 Fourth Annual Message (second term)
+47232.txt	William J. Clinton	February 17, 1993	 Address Before a Joint Session of Congress on Administration Goals
+12061.txt	Dwight D. Eisenhower	January 7, 1960	 Annual Message to the Congress on the State of the Union.
+29564.txt	Calvin Coolidge	December 6, 1923	 First Annual Message
+29480.txt	Martin van Buren	December 3, 1838	 Second Annual Message
+29431.txt	George Washington	January 8, 1790	 First Annual Message to Congress on the State of the Union
+29489.txt	James K. Polk	December 5, 1848	 Fourth Annual Message
+29483.txt	John Tyler	December 7, 1841	 First Annual Message
+12467.txt	Harry S. Truman	January 21, 1946	 Message to the Congress on the State of the Union and on the Budget for 1947
+29463.txt	James Monroe	December 3, 1821	 Fifth Annual Message
+29534.txt	Grover Cleveland	December 4, 1893	 First Annual Message (second term)
+29508.txt	Andrew Johnson	December 3, 1867	 Third Annual Message
+14683.txt	Franklin D. Roosevelt	January 3, 1934	 Annual Message to Congress
+38069.txt	Ronald Reagan	February 6, 1985	 Address Before a Joint Session of the Congress on the State of the Union 
+29481.txt	Martin van Buren	December 2, 1839	 Third Annual Message
+29525.txt	Chester A. Arthur	December 1, 1884	 Fourth Annual Message
+29445.txt	Thomas Jefferson	October 17, 1803	 Third Annual Message
+29532.txt	Benjamin Harrison	December 9, 1891	 Third Annual Message
+56280.txt	William J. Clinton	January 27, 1998	 Address Before a Joint Session of the Congress on the State of the Union
+85753.txt	Barack Obama	February 24, 2009	 Address Before a Joint Session of the Congress
+14379.txt	Harry S. Truman	January 7, 1953	 Annual Message to the Congress on the State of the Union.
+29436.txt	George Washington	November 19, 1794	 Sixth Annual Message
+87433.txt	Barack Obama	January 27, 2010	 Address Before a Joint Session of the Congress on the State of the Union
+29461.txt	James Monroe	December 7, 1819	 Third Annual Message
+29647.txt	John Tyler	December 5, 1843	 Third Annual Message
+19253.txt	George Bush	January 29, 1991	 Address Before a Joint Session of the Congress on the State of the Union
+29500.txt	James Buchanan	December 19, 1859	 Third Annual Message to Congress on the State of the Union
+11685.txt	Dwight D. Eisenhower	January 9, 1959	 Annual Message to the Congress on the State of the Union.
+29433.txt	George Washington	October 25, 1791	 Third Annual Message
+29515.txt	Ulysses S. Grant	December 7, 1874	 Sixth Annual Message
+29554.txt	Woodrow Wilson	December 2, 1913	 First Annual Message
+15336.txt	Franklin D. Roosevelt	January 6, 1937	 Annual Message to Congress
+58708.txt	William J. Clinton	January 27, 2000	 Address Before a Joint Session of the Congress on the State of the Union
+29549.txt	Theodore Roosevelt	December 8, 1908	 Eighth Annual Message
+29557.txt	Woodrow Wilson	December 5, 1916	 Fourth Annual Message
+29524.txt	Chester A. Arthur	December 4, 1883	 Third Annual Message
+29501.txt	James Buchanan	December 3, 1860	 Fourth Annual Message to Congress on the State of the Union
+29552.txt	William Howard Taft	December 5, 1911	 Third Annual Message
+16660.txt	George Bush	February 9, 1989	 Address on Administration Goals Before a Joint Session of Congress
+29469.txt	John Quincy Adams	December 4, 1827	 Third Annual Message
+12762.txt	Harry S. Truman	January 6, 1947	 Annual Message to the Congress on the State of the Union
+11162.txt	Dwight D. Eisenhower	January 9, 1958	 Annual Message to the Congress on the State of the Union
+29432.txt	George Washington	December 8, 1790	 Second Annual Message
+44541.txt	Jimmy Carter	January 16, 1981	 The State of the Union Annual Message to the Congress
+29499.txt	James Buchanan	December 6, 1858	 Second Annual Message to Congress on the State of the Union
+53091.txt	William J. Clinton	January 23, 1996	 Address Before a Joint Session of the Congress on the State of the Union
+29452.txt	James Madison	December 5, 1810	 Second Annual Message
+29643.txt	George W. Bush	February 27, 2001	 Address Before a Joint Session of the Congress on Administration Goals
+58746.txt	George W. Bush	February 2, 2005	 Address Before a Joint Session of the Congress on the State of the Union
+65090.txt	George W. Bush	January 31, 2006	 Address Before a Joint Session of the Congress on the State of the Union
+29434.txt	George Washington	November 6, 1792	 Fourth Annual Message
+29506.txt	Andrew Johnson	December 4, 1865	 First Annual Message
+10704.txt	Dwight D. Eisenhower	January 5, 1956	 Remarks on the State of the Union Message, Key West, Florida.
+99000.txt	Barack Obama	January 24, 2012	 Address Before a Joint Session of Congress on the State of the Union
+29562.txt	Warren G. Harding	December 6, 1921	 First Annual Message
+29471.txt	Andrew Jackson	December 8, 1829	 First Annual Message
+29517.txt	Ulysses S. Grant	December 5, 1876	 Eighth Annual Message
+36646.txt	Ronald Reagan	February 4, 1986	 Address Before a Joint Session of Congress on the State of the Union 
+29541.txt	William McKinley	December 3, 1900	 Fourth Annual Message
+29644.txt	George W. Bush	January 29, 2002	 Address Before a Joint Session of the Congress on the State of the Union
+13293.txt	Harry S. Truman	January 5, 1949	 Annual Message to the Congress on the State of the Union
+40205.txt	Ronald Reagan	January 25, 1984	 Address Before a Joint Session of the Congress on the State of the Union 
+29444.txt	Thomas Jefferson	December 15, 1802	 Second Annual Message
+29459.txt	James Monroe	December 12, 1817	 First Annual Message
+29455.txt	James Madison	December 7, 1813	 Fifth Annual Message
+41698.txt	Ronald Reagan	January 25, 1983	 Address Before a Joint Session of the Congress on the State of the Union 
+20544.txt	George Bush	January 28, 1992	 Address Before a Joint Session of the Congress on the State of the Union
+29490.txt	Zachary Taylor	December 4, 1849	 Annual Message
+29509.txt	Andrew Johnson	December 9, 1868	 Fourth Annual Message
+29568.txt	Calvin Coolidge	December 6, 1927	 Fifth Annual Message
+22021.txt	Herbert Hoover	December 3, 1929	 Annual Message to Congress on the State of the Union
+29457.txt	James Madison	December 5, 1815	 Seventh Annual Message
+29531.txt	Benjamin Harrison	December 1, 1890	 Second Annual Message
+29512.txt	Ulysses S. Grant	December 4, 1871	 Third Annual Message
+29478.txt	Andrew Jackson	December 5, 1836	 Eighth Annual Message
+29491.txt	Millard Fillmore	December 2, 1850	 First Annual Message
+29550.txt	William Howard Taft	December 7, 1909	 First Annual Message
+29449.txt	Thomas Jefferson	October 27, 1807	 Seventh Annual Message
+29440.txt	John Adams	December 8, 1798	 Second Annual Message
+18095.txt	George Bush	January 31, 1990	 Address Before a Joint Session of the Congress on the State of the Union
+29438.txt	George Washington	December 7, 1796	 Eighth Annual Message
+28015.txt	Lyndon B. Johnson	January 12, 1966	 Annual Message to the Congress on the State of the Union.
+29465.txt	James Monroe	December 2, 1823	 Seventh Annual Message
+36035.txt	Ronald Reagan	January 25, 1988	 Address Before a Joint Session of Congress on the State of the Union 
+29447.txt	Thomas Jefferson	December 3, 1805	 Fifth Annual Message
+29558.txt	Woodrow Wilson	December 4, 1917	 Fifth Annual Message
+29542.txt	Theodore Roosevelt	December 3, 1901	 First Annual Message
+29528.txt	Grover Cleveland	December 6, 1887	 Third Annual Message (first term)
+15684.txt	Franklin D. Roosevelt	January 4, 1939	 Annual Message to Congress
+29547.txt	Theodore Roosevelt	December 3, 1906	 Sixth Annual Message
+29485.txt	John Tyler	December 3, 1844	 Fourth Annual Message
+29498.txt	James Buchanan	December 8, 1857	 First Annual Message to Congress on the State of the Union
+29496.txt	Franklin Pierce	December 31, 1855	 Third Annual Message
+29473.txt	Andrew Jackson	December 6, 1831	 Third Annual Message
+29476.txt	Andrew Jackson	December 1, 1834	 Sixth Annual Message
+29493.txt	Millard Fillmore	December 6, 1852	 Third Annual Message
+29504.txt	Abraham Lincoln	December 8, 1863	 Third Annual Message
+23376.txt	Herbert Hoover	December 6, 1932	 Annual Message to the Congress on the State of the Union.
+16386.txt	Franklin D. Roosevelt	January 7, 1943	 State of the Union Address
+13567.txt	Harry S. Truman	January 4, 1950	 Annual Message to the Congress on the State of the Union
+15095.txt	Franklin D. Roosevelt	January 3, 1936	 Annual Message to Congress
+15856.txt	Franklin D. Roosevelt	January 3, 1940	 Annual Message to the Congress
+29566.txt	Calvin Coolidge	December 8, 1925	 Third Annual Message
