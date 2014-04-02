@@ -4,10 +4,6 @@ sent_token_annotator <- Maxent_Sent_Token_Annotator()
 word_token_annotator <- Maxent_Word_Token_Annotator()
 pos_token_annotator <- Maxent_POS_Tag_Annotator()
 
-selectPOS <- function(x, pos = c('NN', 'NNS', 'NNP', 'NNPS')) {
-  ifelse(x$features[[1]]$POS %in% pos, TRUE, FALSE)
-}
-
 extractTokensTags <- function(text, ann) {
   tok <- substr(text, ann$start, ann$end)
   pos <- ann$features[[1]]$POS

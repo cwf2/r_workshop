@@ -71,6 +71,32 @@ Ttr <- function(bow) {
 }
 
 #
+# annotate time plots
+#
+
+ann.date <- function(d, label=NA) {
+  
+  abline(v=d, col='grey25')
+  if (! is.na(label)) {
+    
+    mtext(label, side=3, at=d, las=2, line=0.5, cex=.6)
+  }
+}
+
+ann.dateRange <- function(start, end, label=NA) {
+  
+  top <- par()$usr[3]
+  bottom <- par()$usr[4]
+  
+  rect(start, bottom, end, top, col='grey85', border=NA)
+  if (! is.na(label)) {
+    
+    mtext(label, side=3, at=mean(c(start, end)), las=2, line=0.5, cex=.6)
+  }
+}
+
+
+#
 # executed statements
 #
 

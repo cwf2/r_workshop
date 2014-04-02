@@ -45,7 +45,7 @@ lda.doclines <- lapply(corpus.prep, paste, collapse=' ')
 lda.corpus <- lexicalize(lda.doclines)
 
 set.seed(1)
-K <- 20
+K <- 5
 num.iterations<-250
 
 lda.model <- lda.collapsed.gibbs.sampler(lda.corpus$documents, K, lda.corpus$vocab, num.iterations, 0.1, 0.1, compute.log.likelihood=TRUE)
@@ -79,3 +79,24 @@ for (i in 1:K) {
 
 topic.labels <- paste(apply(top.words[1:5,], 2, paste, collapse=' '), '...')
 legend('topleft', legend=topic.labels, col=c(1:K), lty=c(1:K), cex=.7, y.intersp=.4, text.width=(as.integer(max(metadata$date)-min(metadata$date))/2.5))
+
+
+#
+# nouns-only topics
+#
+
+BOWFromPOSFile <- function(file, pos=c('NN', 'NNS')) {
+  
+  tok.table <- read.table(file, header=TRUE, sep='\t', quote='', stringsAsFactors=FALSE)
+  
+  tokens <- tok.table$token[tok.table$pos %in% pos]
+  tokens <- tolower(tokens)
+  
+  return(tokens)
+}
+
+corpus <- lapply(file.path(corpus.dir, 'pos_tagged', metadata$file), BOWFromPOSFile)
+
+
+
+ann.date(as.Date('1929-10-28'), 'Black Monday')
