@@ -35,6 +35,20 @@ BOWFromFile <- function(file) {
   return(words)
 }
 
+
+BOWFromPOSFile <- function(file, pos=c('NN', 'NNS')) {
+  # Read pre-processed, POS-tagged texts
+  #  - this is just to save time in the workshop
+  
+  tok.table <- read.table(file, header=TRUE, sep='\t', quote='', stringsAsFactors=FALSE)
+  
+  tokens <- tok.table$token[tok.table$pos %in% pos]
+  tokens <- tolower(tokens)
+  
+  return(tokens)
+}
+
+
 WordFreqsFromBOW <- function(bow) {
   # calculate frequencies per 1000 words from vector of tokens
   
@@ -88,7 +102,7 @@ ann.dateRange <- function(start, end, label=NA) {
   top <- par()$usr[3]
   bottom <- par()$usr[4]
   
-  rect(start, bottom, end, top, col='grey85', border=NA)
+  rect(start, bottom, end, top, col='grey85', border='grey85')
   if (! is.na(label)) {
     
     mtext(label, side=3, at=mean(c(start, end)), las=2, line=0.5, cex=.6)

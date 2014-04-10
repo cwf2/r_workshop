@@ -12,91 +12,66 @@ metadata$president <- as.factor(metadata$president)
 # order by date
 metadata <- metadata[order(metadata$date),]
 
-# ingest the corpus
-corpus <- lapply(file.path(corpus.dir, metadata$file), BOWFromFile)
-
-# calculate word frequencies per doc
-doc.word.freq <- lapply(corpus, WordFreqsFromBOW)
-
-# calculate corpus-wide frequencies
-corpus.word.freq <- WordFreqsFromBOW(unlist(corpus))
-
-# create a 'fingerprint' of top word frequencies
-fingerprint <- corpus.word.freq[1:5]
-
-# a large table of fingerprint freqs for all samples
-tab.fingerprint <- t(sapply(doc.word.freq, Fingerprint, tokens=names(fingerprint)))
-
-# pca on same
-pca.fingerprint <- prcomp(tab.fingerprint)
-
+# ingest the corpus - plain text
+# corpus <- lapply(file.path(corpus.dir, metadata$file), BOWFromFile)
+# ingest the corpus from files pre-parsed for POS
+corpus <- lapply(file.path(corpus.dir, 'pos_tagged', metadata$file), BOWFromPOSFile)
 
 #
 # topic modelling
 #
 
-# pruned and stemmed corpus
+# delete words from stoplist
 corpus.prep <- lapply(corpus, function(v) { v[-which(v %in% stoplist)] })
+# apply an English stemmer
 # corpus.prep <- lapply(corpus.prep, SnowballStemmer)
 
-# create docstrings 
+# create "documents" of the format required
+# by the topic-modelling package
 
 lda.doclines <- lapply(corpus.prep, paste, collapse=' ')
 lda.corpus <- lexicalize(lda.doclines)
 
+# set random number seed
 set.seed(1)
+
+# set number of topics
 K <- 5
+
+# set number of iterations
 num.iterations<-250
 
+# generate model
 lda.model <- lda.collapsed.gibbs.sampler(lda.corpus$documents, K, lda.corpus$vocab, num.iterations, 0.1, 0.1, compute.log.likelihood=TRUE)
+
+# extract top words from the model
 top.words <- top.topic.words(lda.model$topics, 25, by.score=TRUE)
 
 
 #
-# plots
+# topic plots
 #
 
-# 1. freq curve for 'fingerprint' words
+# set up basic plot area
+plot.new()
+plot.window(xlim=range(metadata$date), ylim=range(lda.model$document_sums))
 
-# freq.range <- range(sapply(doc.word.freq, function(x) {return(range(x[fingerprint]))}))
-# 
-# plot(corpus.word.freq[fingerprint], ylim=freq.range, type='n', xaxt='n')
-# axis(1, 1:length(fingerprint), labels=names(fingerprint))
-# 
-# lines(doc.word.freq[[1]][fingerprint], type='b')
+# add annotations
+notes <- read.table(file.path(corpus.dir, 'interesting.dates.txt'), header=TRUE, sep='\t', stringsAsFactors=FALSE)
+notes$start <- as.Date(notes$start)
+notes$end <- as.Date(notes$end)
 
+for (i in 1:nrow(notes)) { ann.dateRange(start=notes$start[i], end=notes$end[i], label=notes$name[i])}
 
-# 2. pca plots
+# add axes
+box()
+axis.Date(side=1, x=metadata$date, lwd=0, lwd.ticks=1)
 
-# plot(pca.fingerprint$x, col=metadata$president, pch=metadata$president)
-
-# 3. topic plots
-
-plot(metadata$date, lda.model$document_sums[1,], type='n', xlab='Date', ylab='Topic Strength', yaxt='n', ylim=range(lda.model$document_sums))
+# draw curve for each topic
 for (i in 1:K) { 
  lines(metadata$date, lda.model$document_sums[i,], col=i, lty=i)
 }
 
+# create legend
 topic.labels <- paste(apply(top.words[1:5,], 2, paste, collapse=' '), '...')
 legend('topleft', legend=topic.labels, col=c(1:K), lty=c(1:K), cex=.7, y.intersp=.4, text.width=(as.integer(max(metadata$date)-min(metadata$date))/2.5))
-
-
-#
-# nouns-only topics
-#
-
-BOWFromPOSFile <- function(file, pos=c('NN', 'NNS')) {
-  
-  tok.table <- read.table(file, header=TRUE, sep='\t', quote='', stringsAsFactors=FALSE)
-  
-  tokens <- tok.table$token[tok.table$pos %in% pos]
-  tokens <- tolower(tokens)
-  
-  return(tokens)
-}
-
-corpus <- lapply(file.path(corpus.dir, 'pos_tagged', metadata$file), BOWFromPOSFile)
-
-
-
-ann.date(as.Date('1929-10-28'), 'Black Monday')

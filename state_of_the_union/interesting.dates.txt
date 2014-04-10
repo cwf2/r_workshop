@@ -1,0 +1,19 @@
+start	end	name
+1812-06-18	1815-02-18	War of 1812
+1846-01-04	1847-09-14	Mexican-American War
+1861-04-10	1865-04-09	U.S. Civil War
+1898-01-04	1898-08-12	Spanish-American War
+1917-01-04	1918-11-11	World War I
+1941-01-12	1945-08-14	World War II
+1950-01-06	1953-07-27	Korean War
+1991-01-01	1991-04-11	Gulf War
+1999-01-03	1999-06-10	War for Kosovo
+2001-10-07	2014-12-31	War in Afghanistan
+2003-03-20	2011-12-15	Iraq War
+1873-09-01	1879-03-31	Long Depression
+1882-03-01	1885-05-31	Depression of 1882-1885
+1893-01-01	1894-06-30	Panic of 1893
+1907-05-01	1908-06-30	Panic of 1907
+1920-01-01	1921-07-31	Depression of 1920-1921
+1929-08-01	1933-03-31	Great Depression
+1978-01-01	1979-02-28	Iranian Revolution
