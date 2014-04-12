@@ -45,29 +45,4 @@ legend('topright',
        pch=1:2,
        col=1:2)
 
-# identify individual points
-# identify(tab.fingerprint[,'it'])
 
-# show mean frequencies
-# abline(h=mean(tab.fingerprint[metadata$from=='E.B.B.', 'it']), col=1)
-# abline(h=mean(tab.fingerprint[metadata$from=='R.B.', 'it']), col=2)
-
-# 
-# pca plots
-# 
-# for (n in seq(from=5, to=200, by=5)) {
-# 
-#   # create a 'fingerprint' of top word frequencies
-#   fingerprint <- corpus.word.freq[1:n]
-#   
-#   # a large table of fingerprint freqs for all samples
-#   tab.fingerprint <- t(sapply(doc.word.freq, Fingerprint, tokens=names(fingerprint)))
-#   
-#   # pca on same
-#   pca.fingerprint <- prcomp(tab.fingerprint)
-# 
-#   # plot
-#   plot(pca.fingerprint$x[,2], col=unclass(metadata$from), pch=unclass(metadata$from))
-#   title(main=paste('top', n, 'words'))
-#   legend('bottomleft', legend=levels(metadata$from), pch=1:2, col=1:2)  
-# }
