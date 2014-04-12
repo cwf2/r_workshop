@@ -25,7 +25,6 @@ tab.fingerprint <- t(sapply(doc.word.freq, Fingerprint, tokens=names(fingerprint
 pca.fingerprint <- prcomp(tab.fingerprint)
 
 # author/genre plot
-par(mar=c(6, 4, 4, 8) + .1)
 plot(pca.fingerprint$x, col=unclass(metadata$type), pch=unclass(metadata$author))
-legend('right', legend=c('anne prose', 'charlotte prose', 'emily prose', 'anne verse', 'charlotte verse', 'emily verse'), pch=c(1:3,1:3), col=c(1,1,1,2,2,2), xpd=TRUE, inset=c(-.45,0), cex=.9)
+legend('topright', legend=c('anne prose', 'charlotte prose', 'emily prose', 'anne verse', 'charlotte verse', 'emily verse'), pch=c(1:3,1:3), col=c(1,1,1,2,2,2), xpd=TRUE, cex=.8)
 

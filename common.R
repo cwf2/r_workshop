@@ -1,12 +1,3 @@
-#
-# libraries
-#
-
-library('openNLP')
-library('NLP')
-library('lda')
-library('Snowball')
-
 
 #
 # functions
@@ -108,7 +99,6 @@ ann.dateRange <- function(start, end, label=NA) {
     mtext(label, side=3, at=mean(c(start, end)), las=2, line=0.5, cex=.6)
   }
 }
-
 
 #
 # executed statements
