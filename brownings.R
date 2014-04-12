@@ -44,6 +44,9 @@ legend('topright',
        pch=1:2,
        col=1:2)
 
+# identify individual points
+# identify(tab.fingerprint[,'it'])
+
 # show mean frequencies
 # abline(h=mean(tab.fingerprint[metadata$from=='E.B.B.', 'it']), col=1)
 # abline(h=mean(tab.fingerprint[metadata$from=='R.B.', 'it']), col=2)
