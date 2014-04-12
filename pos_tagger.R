@@ -1,10 +1,19 @@
-# create annotators
+# load NLP libraries
+library('NLP')
+library('openNLP')
 
+# create annotators
 sent_token_annotator <- Maxent_Sent_Token_Annotator()
 word_token_annotator <- Maxent_Word_Token_Annotator()
 pos_token_annotator <- Maxent_POS_Tag_Annotator()
 
+#
+# functions
+#
+
 extractTokensTags <- function(text, ann) {
+  # extract tokens and pos tags from annotated text
+  
   tok <- substr(text, ann$start, ann$end)
   pos <- ann$features[[1]]$POS
   
@@ -13,6 +22,8 @@ extractTokensTags <- function(text, ann) {
 
 extractTokensTagsFromFile <- function(file) {
   # read a file and return a vector of noun tokens
+  
+  # print message to console
   cat(paste('annotate: reading', file, '\n'), file=stderr())
   
   # read the file line by line

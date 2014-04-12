@@ -8,6 +8,7 @@ source('common.R')
 # load metadata
 corpus.dir <- 'brownings'
 metadata <- read.table(file.path(corpus.dir, 'index.txt'), encoding='utf8', sep='\t', header=TRUE)
+metadata$file <- as.character(metadata$file)
 
 # ingest the corpus
 corpus <- lapply(file.path(corpus.dir, metadata$file), BOWFromFile)

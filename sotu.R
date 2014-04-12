@@ -1,10 +1,13 @@
-#
-# statements to be executed
-#
+# load ancillary libraries
+library('lda')
+library('Snowball')
 
-corpus.dir <- 'state_of_the_union'
+# load pre-defined functions
+source('common.R')
 
 # load metadata
+corpus.dir <- 'state_of_the_union'
+
 metadata <- read.table(file.path(corpus.dir, 'md.date-international.txt'), encoding='utf8', sep='\t', header=TRUE, stringsAsFactors=FALSE)
 metadata$date <- as.Date(metadata$date)
 metadata$president <- as.factor(metadata$president)
@@ -13,18 +16,19 @@ metadata$president <- as.factor(metadata$president)
 metadata <- metadata[order(metadata$date),]
 
 # ingest the corpus - plain text
-# corpus <- lapply(file.path(corpus.dir, metadata$file), BOWFromFile)
+corpus <- lapply(file.path(corpus.dir, metadata$file), BOWFromFile)
 # ingest the corpus from files pre-parsed for POS
-corpus <- lapply(file.path(corpus.dir, 'pos_tagged', metadata$file), BOWFromPOSFile)
+# corpus <- lapply(file.path(corpus.dir, 'pos_tagged', metadata$file), BOWFromPOSFile)
+
+# delete words from stoplist
+corpus.prep <- lapply(corpus, function(v) { v[-which(v %in% stoplist)] })
+
+# apply an English stemmer
+# corpus.prep <- lapply(corpus.prep, SnowballStemmer)
 
 #
 # topic modelling
 #
-
-# delete words from stoplist
-corpus.prep <- lapply(corpus, function(v) { v[-which(v %in% stoplist)] })
-# apply an English stemmer
-# corpus.prep <- lapply(corpus.prep, SnowballStemmer)
 
 # create "documents" of the format required
 # by the topic-modelling package
